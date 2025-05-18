@@ -12,7 +12,7 @@ array.forEach(button => {
             if(input.value[0] == '*' || input.value[0] == '/') {
                 input.value = 'Error';
             } 
-            else if(input.value[0] == '0' && input.value[1] == '+' || input.value[0] == '0' && input.value[1] == '-' || input.value[0] == '0' && input.value[1] == '*' || input.value[0] == '0' && input.value[1] == '/') {
+            else if(input.value[0] == '0' && input.value[1] == '*' || input.value[0] == '0' && input.value[1] == '/') {
                 input.value = '0';
             }
             else {
