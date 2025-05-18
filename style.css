@@ -84,10 +84,17 @@ button:hover {
 }
 
 @media (max-width: 510px) {
+    html, body {
+        position: relative;
+        height: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: #fff;
+    }
+
     .calculator {
         height: 100%;
         width: 100%;
-        overflow: hidden;
     }
 
     .input {
